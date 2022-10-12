@@ -2,6 +2,15 @@
 
 using namespace std;
 
+class CMonster
+{
+public:
+	void Attack(int damage)
+	{
+		damage = 0;
+	};
+};
+
 int main()
 {
 

@@ -19,7 +19,7 @@ namespace game
 	public:
 		void Attack(int damage)
 		{
-			damage = 0;
+			cout << "Attacked" << endl;
 		};
 	};
 }

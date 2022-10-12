@@ -4,6 +4,9 @@ using namespace std;
 
 class CMonster
 {
+	int hp;
+	int armor;
+
 public:
 	void Attack(int damage)
 	{

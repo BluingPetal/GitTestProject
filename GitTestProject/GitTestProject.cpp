@@ -20,7 +20,12 @@ namespace game
 		void Attack(int damage)
 		{
 			damage = 0;
-		};
+		}
+
+		void Defence()
+		{
+
+		}
 	};
 }
 

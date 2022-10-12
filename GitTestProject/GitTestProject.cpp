@@ -2,6 +2,13 @@
 
 using namespace std;
 
+class CItem
+{
+public:
+
+
+};
+
 class CMonster
 {
 	int hp;
@@ -18,7 +25,6 @@ int main()
 {
 
 	cout << "git ¿¬½À" << endl;
-	cout << "Hello" << endl;
 
 	return 0;
 }

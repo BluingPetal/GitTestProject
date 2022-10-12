@@ -2,28 +2,31 @@
 
 using namespace std;
 
-class CItem
+namespace game
 {
-public:
-
-
-};
-
-class CMonster
-{
-	int hp;
-	int armor;
-
-public:
-	void Attack(int damage)
+	class CItem
 	{
-		damage = 0;
+	public:
+
+
 	};
-};
+
+	class CMonster
+	{
+		int hp;
+		int armor;
+
+	public:
+		void Attack(int damage)
+		{
+			damage = 0;
+		};
+	};
+}
 
 int main()
 {
-
+	game::CItem item;
 	cout << "git ¿¬½À" << endl;
 
 	return 0;

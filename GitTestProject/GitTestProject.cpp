@@ -2,6 +2,13 @@
 
 using namespace std;
 
+class CItem
+{
+public:
+
+
+};
+
 int main()
 {
 
